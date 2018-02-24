@@ -16,7 +16,7 @@ labels = [0, 0, 1, 1]
 
 clf = tree.DecisionTreeClassifier()
 
-clf = clf.fit(features, labels)
+clf.fit(features, labels)
 
 #
 # Making the predictions
